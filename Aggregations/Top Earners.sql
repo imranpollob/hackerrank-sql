@@ -1,0 +1,1 @@
+select months*salary as e,count(*) from employee group by e order by e desc limit 1;
